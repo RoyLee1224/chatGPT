@@ -9,7 +9,7 @@ import { db } from "../firebase";
 import ModelSelection from "./ModelSelection";
 
 type Props = {
-	chatId: string;
+	chatId: string; 
 }
 
 function ChatInput({ chatId }: Props) {
@@ -25,7 +25,7 @@ function ChatInput({ chatId }: Props) {
 
 	// console.log('sending')
 	const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
-		// e.preventDefault()
+		e.preventDefault()
 		if (!prompt) return;
 
 		const input = prompt.trim();

@@ -8,7 +8,7 @@ function ModelSelection() {
 
 	const { data: models, isLoading } = useSWR('models', fetchModels);
 	const { data: model, mutate: setModel } = useSWR('model', {
-		fallbackData: 'code-davinci-002'
+		fallbackData: 'text-davinci-003'
 	})
 
   return (
