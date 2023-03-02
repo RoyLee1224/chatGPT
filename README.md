@@ -27,7 +27,7 @@ I have also added a feature that allows users to select their desired AI model b
 
 ## Packages
 
-- `@heroicons/react｀: a library of free icons that can be used in your React projects
+- `@heroicons/react`: a library of free icons that can be used in your React projects
 - `firebase and firebase-admin`: packages for using Firebase, a backend platform that provides services like authentication, cloud storage, and real-time database.
 - `next`: a framework for building server-rendered React applications
 - `next-auth`: a package for implementing authentication in Next.js applications
