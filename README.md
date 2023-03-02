@@ -1,27 +1,24 @@
-# Next.js + Tailwind CSS Example
+# ChatGPT App Built with Next.js + Tailwind CSS
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Enhance your conversational AI experience with my upgraded version of the ChatGPTv3 user client from OpenAI. With a custom API integrated to fetch responses to your queries and store them in a database hosted on Google Firebase, this platform provides a streamlined and efficient solution. I have also added a feature that allows users to select their desired AI model before sending a prompt, providing greater control over the conversational experience.
 
-## Deploy your own
+## Local Setup
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+1. clone or fork the repo onto your computer
+2. download and install the latest version of node.js (https://nodejs.org/en/) for your Operating System
+3. using your Command Line navigate to the folder where the files are saved
+4. run 'npm i' to install all the dependencies
+5. next run 'npm run dev' to start the server on localhost:3000
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- Click "new chat" to open a new chat window
+- Optionally you can select a model from the "model list" to test your prompts by default it will be set to the "text-davinci-003" model
+- After writing your message click enter or the submit green arrow to send your message to the openAI API
+- A loading notification will begin and when it ends your response will be shown on the screen
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Features
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- Faster Responses with the removal of the text stream feature from chats
+- The ability to change the model at any time to give you more control over responses
+- All responses are saved to a database to look at past responses at anytime
