@@ -24,3 +24,16 @@ I have also added a feature that allows users to select their desired AI model b
 - Faster Responses with the removal of the text stream feature from chats
 - The ability to change the model at any time to give you more control over responses
 - All responses are saved to a database to look at past responses at anytime
+
+## Packages
+
+- `@heroicons/react｀: a library of free icons that can be used in your React projects
+- `firebase and firebase-admin`: packages for using Firebase, a backend platform that provides services like authentication, cloud storage, and real-time database.
+- `next`: a framework for building server-rendered React applications
+- `next-auth`: a package for implementing authentication in Next.js applications
+- `openai`: a package for accessing the OpenAI API
+- `react and react-dom`: packages for building user interfaces with React
+- `react-firebase-hooks`: a collection of hooks for using Firebase with React
+- `react-hot-toast`: a package for displaying toast notifications in React
+- `react-select`: a package for building customizable and accessible dropdowns and select inputs in React
+- `swr`: a package for data fetching in React
